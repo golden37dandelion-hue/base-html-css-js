@@ -1,0 +1,97 @@
+* {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  margin: 0;
+}
+
+body {
+  background-color: #dfd8d6;
+}
+
+header {
+  color: #e1fcd9;
+  font-weight: 900;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, #dfd8d6 100%),
+    url(./images/photo-of-a-beautiful-coleus-plant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 150px;
+  background-position: center bottom;
+}
+
+.site-header h1 {
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.site-nav {
+  margin-top: 40px;
+}
+
+.site-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: small;
+  background-color: rgb(224, 243, 194);
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.site-nav a:hover {
+  color: rgb(112, 161, 32);
+}
+
+.watering-a-plant {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  border-radius: 15px;
+}
+
+.molding-plant {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  border-radius: 15px;
+}
+
+p {
+  text-align: left;
+  margin: 35 auto;
+}
+
+.header-p-container {
+  padding: 0 auto;
+  max-width: 800px;
+}
+
+.header-p-container {
+  padding: 0 40px;
+}
+
+image {
+  box-sizing: border-box;
+}
+
+#Watering,
+#molding,
+#cuttingspropagation,
+#overwintering {
+  margin-top: 25px;
+}
